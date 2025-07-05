@@ -32,6 +32,7 @@ export function LoginForm() {
       } else {
         setError("Credenciales incorrectas")
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (err) {
       setError("Error al iniciar sesión")
     } finally {
